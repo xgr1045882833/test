@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff99ff"
+    tools:context="com.xgr.checkbox.MainActivity">
+
+    <Button
+        android:background="@drawable/ic_launcher_round"
+        android:id="@+id/btn_skip_this"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="跳转"/>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:background="#cccccc">
+
+        <ImageView
+            android:id="@+id/iv_show"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/ic_launcher_round"/>
+
+        <ImageView
+            android:id="@+id/iv_dismiss"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/ic_launcher_round"/>
+    </RelativeLayout>
+
+</RelativeLayout>
