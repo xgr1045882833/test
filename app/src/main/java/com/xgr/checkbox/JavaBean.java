@@ -8,6 +8,10 @@ import java.io.Serializable;
 
 public class JavaBean implements Serializable {
     private String name;
+    private int year;
+    private int day;
+    private int month;
+    private String address;
 
     public String getName() {
         return name;
